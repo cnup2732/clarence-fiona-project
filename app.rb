@@ -16,7 +16,7 @@ class MyApp < Sinatra::Base
   end
   
   get '/chinesegirl' do
-    erb :chinesegirl
+    erb :asdf
   end
 
   get '/koreanboy' do
