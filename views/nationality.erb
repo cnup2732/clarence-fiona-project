@@ -5,16 +5,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
-  <body>
+  <body id="nationality">
   <div class="container">
     <div class="row text-center" background-color: white>
   <h1></h1>
   <p></p>    
   <form action="/nationality" method="post">
-  <h2> What nationality are you?</h2>
+  <h2> Which nationality are you?</h2>
 
   <p>
-  <select name="nationality">
+  <select id="submitbutton" name="nationality">
     <option value="Chinese" selected>Chinese</option>
     <option value="Korean" selected>Korean</option>
     <option value="Indian" selected>Indian</option>
@@ -29,7 +29,7 @@
   </label>
   </p>
   <p>
-  <input type="submit" name="submit" value="Send">
+  <input  id="submitbutton" type="submit" name="submit" value="Send">
   </p>
 
   </form>
