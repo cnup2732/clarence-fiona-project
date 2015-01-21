@@ -16,7 +16,7 @@ class MyApp < Sinatra::Base
   end
   
   get '/chinesegirl' do
-    erb :asdf
+    erb :chinesegirl
   end
 
   get '/koreanboy' do
@@ -33,6 +33,9 @@ class MyApp < Sinatra::Base
 
   get '/indiangirl' do
     erb :indiangirl
+  end
+  get '/conclusion' do
+    erb :conclusion
   end
 
   post '/nationality' do

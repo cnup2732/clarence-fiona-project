@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Oxygen:400,300,700');
+@import url('http://fonts.googleapis.com/css?family=Nunito:400,700');
 
 h1 {
   font-size: 40px;
@@ -10,6 +10,7 @@ h1 {
     -3px 3px 0 #fff,
     3px 3px 0 #fff;  
  }
+
  h2{
     font-size: 40px;
   font-weight: bold;
@@ -35,10 +36,25 @@ h1 {
   width: 140px;
   font-size: 25px;
 }
+#chinese {
+  background: url("http://4.bp.blogspot.com/_5Yi-Ra13uqc/TOjX3J1MaoI/AAAAAAAAApg/3zNlpn8a5ww/s1600/chinatown.png")  repeat; 
+ nowhitespace: afterproperty;
+  background-repeat: repeat;
+  }
+#indian {
+  background: url("http://121clicks.com/wp-content/uploads/2011/12/indian_street_photography_45.jpg")  repeat; 
+ nowhitespace: afterproperty;
+  background-repeat: repeat;
+}
+#korean {
+  background: url("http://2.bp.blogspot.com/-BnOAkXiYA7c/UMsEJE6yynI/AAAAAAAAC0s/5shbclcX68g/s400/April2012+450.jpg")  repeat; 
+ nowhitespace: afterproperty;
+  background-repeat: repeat;
+}
 
- 
-#asian {
-  font-family: 'Oxygen', sans-serif;
+
+#asian, #nationality {
+  font-family: 'Nunito', sans-serif;
     font-size: 20px;
     font-weight: bold;
      color: black;
